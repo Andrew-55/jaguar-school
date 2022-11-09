@@ -1,0 +1,12 @@
+.wrapperbody {
+    height: 100vh;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1 1 auto;
+}

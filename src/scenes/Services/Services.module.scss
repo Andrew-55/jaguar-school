@@ -1,0 +1,46 @@
+@import '../../variables';
+
+.servicesHeader {
+  font-size: 50px;
+  text-align: center;
+  margin: calc($length-higth*5) 0;
+}
+.city {
+  display: flex;
+  flex-direction: column;
+  row-gap: calc($length-higth);
+  max-width: 1600px;
+  margin: calc($length-higth*5) auto;
+}
+.services {
+  &__city {
+    font-size: 40px;
+    margin-bottom: calc($length-higth*2);
+  }
+  &__items {
+    display: flex;
+    flex-direction: column;
+    row-gap: calc($length-higth*2);
+    font-size: 25px;
+  }
+  &__item {
+    display: flex;
+    column-gap: calc($length-width*2);
+    justify-content: space-between;
+    &__img {
+        width: 100px;
+        height: 100px;
+    }
+    &__desc span {
+        font-size: 30px;
+        font-weight: 700;
+        margin-left: calc($length-width*2);
+        margin-right: calc($length-width*2);
+    }
+    &__cost {
+        font-size: 30px;
+        font-weight: 700;
+    }
+  }
+
+}
